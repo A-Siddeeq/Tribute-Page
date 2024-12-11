@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 const LandingPage = () => {
   return (
     <>
-      <div className="flex flex-col justify-between bg-[url('./assets/stateHouse.jpg')] bg-cover w-screen bg-no-repeat h-screen">
+      <div className="flex flex-col overflow-hidden justify-between bg-[url('./assets/stateHouse.jpg')] bg-cover w-full bg-no-repeat h-screen">
         <div className="flex justify-center py-2">
           <div className="flex justify-around items-center w-full">
             {/* REACT + TS LOGO */}
@@ -58,9 +58,9 @@ const LandingPage = () => {
           </div>
         </div>
         {/*BRIEF BIO.*/}
-        <div className="flex flex-col self-center text-center font-outfit">
+        <div className="flex flex-col text-center font-outfit">
           <div>
-            <h1 className="font-anton text-3xl text-gray-100">
+            <h1 className="font-anton text-2xl md:text-3xl text-gray-100">
               Mal. Nasir Ahmad El - Rufai
             </h1>
             <h2 className="text-gray-50">
@@ -75,7 +75,7 @@ const LandingPage = () => {
           <div className="flex justify-center">
             <hr className="w-48" />
           </div>
-          <p className="text-white text-lg break-all">
+          <p className="text-white text-lg">
             Born 16<sup>th</sup> February 1960 is a Nigerian Politician,
             innovator and visionary leader. He is the Former and 22nd Executive
             Governor of Kaduna State. El-Rufai, as he is commonly called had
